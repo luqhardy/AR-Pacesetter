@@ -1,0 +1,954 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7CDFE202F96FADC00EFA30A /* ARペースセッター Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A7CDFE1F2F96FADC00EFA30A /* ARペースセッター Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7CDFE0A2F96FADC00EFA30A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7CDFDF12F96FAD900EFA30A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7CDFDF82F96FAD900EFA30A;
+			remoteInfo = "ARペースセッター";
+		};
+		A7CDFE142F96FADC00EFA30A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7CDFDF12F96FAD900EFA30A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7CDFDF82F96FAD900EFA30A;
+			remoteInfo = "ARペースセッター";
+		};
+		A7CDFE212F96FADC00EFA30A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7CDFDF12F96FAD900EFA30A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7CDFE1E2F96FADC00EFA30A;
+			remoteInfo = "ARペースセッター Watch App";
+		};
+		A7CDFE322F96FADD00EFA30A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7CDFDF12F96FAD900EFA30A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7CDFE1E2F96FADC00EFA30A;
+			remoteInfo = "ARペースセッター Watch App";
+		};
+		A7CDFE3C2F96FADD00EFA30A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7CDFDF12F96FAD900EFA30A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7CDFE1E2F96FADC00EFA30A;
+			remoteInfo = "ARペースセッター Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A7CDFE482F96FADD00EFA30A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A7CDFE202F96FADC00EFA30A /* ARペースセッター Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A7CDFDF92F96FAD900EFA30A /* ARペースセッター.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARペースセッター.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CDFE092F96FADC00EFA30A /* ARペースセッターTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARペースセッターTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CDFE132F96FADC00EFA30A /* ARペースセッターUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARペースセッターUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CDFE1F2F96FADC00EFA30A /* ARペースセッター Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARペースセッター Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CDFE312F96FADD00EFA30A /* ARペースセッター Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARペースセッター Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CDFE3B2F96FADD00EFA30A /* ARペースセッター Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARペースセッター Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A7CDFDFB2F96FAD900EFA30A /* ARペースセッター */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ARペースセッター";
+			sourceTree = "<group>";
+		};
+		A7CDFE0C2F96FADC00EFA30A /* ARペースセッターTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ARペースセッターTests";
+			sourceTree = "<group>";
+		};
+		A7CDFE162F96FADC00EFA30A /* ARペースセッターUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ARペースセッターUITests";
+			sourceTree = "<group>";
+		};
+		A7CDFE232F96FADC00EFA30A /* ARペースセッター Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ARペースセッター Watch App";
+			sourceTree = "<group>";
+		};
+		A7CDFE342F96FADD00EFA30A /* ARペースセッター Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ARペースセッター Watch AppTests";
+			sourceTree = "<group>";
+		};
+		A7CDFE3E2F96FADD00EFA30A /* ARペースセッター Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ARペースセッター Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7CDFDF62F96FAD900EFA30A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CDFE062F96FADC00EFA30A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CDFE102F96FADC00EFA30A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CDFE1C2F96FADC00EFA30A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CDFE2E2F96FADD00EFA30A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CDFE382F96FADD00EFA30A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7CDFDF02F96FAD900EFA30A = {
+			isa = PBXGroup;
+			children = (
+				A7CDFDFB2F96FAD900EFA30A /* ARペースセッター */,
+				A7CDFE0C2F96FADC00EFA30A /* ARペースセッターTests */,
+				A7CDFE162F96FADC00EFA30A /* ARペースセッターUITests */,
+				A7CDFE232F96FADC00EFA30A /* ARペースセッター Watch App */,
+				A7CDFE342F96FADD00EFA30A /* ARペースセッター Watch AppTests */,
+				A7CDFE3E2F96FADD00EFA30A /* ARペースセッター Watch AppUITests */,
+				A7CDFDFA2F96FAD900EFA30A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7CDFDFA2F96FAD900EFA30A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7CDFDF92F96FAD900EFA30A /* ARペースセッター.app */,
+				A7CDFE092F96FADC00EFA30A /* ARペースセッターTests.xctest */,
+				A7CDFE132F96FADC00EFA30A /* ARペースセッターUITests.xctest */,
+				A7CDFE1F2F96FADC00EFA30A /* ARペースセッター Watch App.app */,
+				A7CDFE312F96FADD00EFA30A /* ARペースセッター Watch AppTests.xctest */,
+				A7CDFE3B2F96FADD00EFA30A /* ARペースセッター Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7CDFDF82F96FAD900EFA30A /* ARペースセッター */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CDFE492F96FADD00EFA30A /* Build configuration list for PBXNativeTarget "ARペースセッター" */;
+			buildPhases = (
+				A7CDFDF52F96FAD900EFA30A /* Sources */,
+				A7CDFDF62F96FAD900EFA30A /* Frameworks */,
+				A7CDFDF72F96FAD900EFA30A /* Resources */,
+				A7CDFE482F96FADD00EFA30A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7CDFE222F96FADC00EFA30A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A7CDFDFB2F96FAD900EFA30A /* ARペースセッター */,
+			);
+			name = "ARペースセッター";
+			packageProductDependencies = (
+			);
+			productName = "ARペースセッター";
+			productReference = A7CDFDF92F96FAD900EFA30A /* ARペースセッター.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7CDFE082F96FADC00EFA30A /* ARペースセッターTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CDFE4C2F96FADD00EFA30A /* Build configuration list for PBXNativeTarget "ARペースセッターTests" */;
+			buildPhases = (
+				A7CDFE052F96FADC00EFA30A /* Sources */,
+				A7CDFE062F96FADC00EFA30A /* Frameworks */,
+				A7CDFE072F96FADC00EFA30A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7CDFE0B2F96FADC00EFA30A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A7CDFE0C2F96FADC00EFA30A /* ARペースセッターTests */,
+			);
+			name = "ARペースセッターTests";
+			packageProductDependencies = (
+			);
+			productName = "ARペースセッターTests";
+			productReference = A7CDFE092F96FADC00EFA30A /* ARペースセッターTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7CDFE122F96FADC00EFA30A /* ARペースセッターUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CDFE4F2F96FADD00EFA30A /* Build configuration list for PBXNativeTarget "ARペースセッターUITests" */;
+			buildPhases = (
+				A7CDFE0F2F96FADC00EFA30A /* Sources */,
+				A7CDFE102F96FADC00EFA30A /* Frameworks */,
+				A7CDFE112F96FADC00EFA30A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7CDFE152F96FADC00EFA30A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A7CDFE162F96FADC00EFA30A /* ARペースセッターUITests */,
+			);
+			name = "ARペースセッターUITests";
+			packageProductDependencies = (
+			);
+			productName = "ARペースセッターUITests";
+			productReference = A7CDFE132F96FADC00EFA30A /* ARペースセッターUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A7CDFE1E2F96FADC00EFA30A /* ARペースセッター Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CDFE452F96FADD00EFA30A /* Build configuration list for PBXNativeTarget "ARペースセッター Watch App" */;
+			buildPhases = (
+				A7CDFE1B2F96FADC00EFA30A /* Sources */,
+				A7CDFE1C2F96FADC00EFA30A /* Frameworks */,
+				A7CDFE1D2F96FADC00EFA30A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A7CDFE232F96FADC00EFA30A /* ARペースセッター Watch App */,
+			);
+			name = "ARペースセッター Watch App";
+			packageProductDependencies = (
+			);
+			productName = "ARペースセッター Watch App";
+			productReference = A7CDFE1F2F96FADC00EFA30A /* ARペースセッター Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7CDFE302F96FADD00EFA30A /* ARペースセッター Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CDFE522F96FADD00EFA30A /* Build configuration list for PBXNativeTarget "ARペースセッター Watch AppTests" */;
+			buildPhases = (
+				A7CDFE2D2F96FADD00EFA30A /* Sources */,
+				A7CDFE2E2F96FADD00EFA30A /* Frameworks */,
+				A7CDFE2F2F96FADD00EFA30A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7CDFE332F96FADD00EFA30A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A7CDFE342F96FADD00EFA30A /* ARペースセッター Watch AppTests */,
+			);
+			name = "ARペースセッター Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "ARペースセッター Watch AppTests";
+			productReference = A7CDFE312F96FADD00EFA30A /* ARペースセッター Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7CDFE3A2F96FADD00EFA30A /* ARペースセッター Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CDFE552F96FADD00EFA30A /* Build configuration list for PBXNativeTarget "ARペースセッター Watch AppUITests" */;
+			buildPhases = (
+				A7CDFE372F96FADD00EFA30A /* Sources */,
+				A7CDFE382F96FADD00EFA30A /* Frameworks */,
+				A7CDFE392F96FADD00EFA30A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7CDFE3D2F96FADD00EFA30A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A7CDFE3E2F96FADD00EFA30A /* ARペースセッター Watch AppUITests */,
+			);
+			name = "ARペースセッター Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "ARペースセッター Watch AppUITests";
+			productReference = A7CDFE3B2F96FADD00EFA30A /* ARペースセッター Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7CDFDF12F96FAD900EFA30A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A7CDFDF82F96FAD900EFA30A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A7CDFE082F96FADC00EFA30A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A7CDFDF82F96FAD900EFA30A;
+					};
+					A7CDFE122F96FADC00EFA30A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A7CDFDF82F96FAD900EFA30A;
+					};
+					A7CDFE1E2F96FADC00EFA30A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A7CDFE302F96FADD00EFA30A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A7CDFE1E2F96FADC00EFA30A;
+					};
+					A7CDFE3A2F96FADD00EFA30A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A7CDFE1E2F96FADC00EFA30A;
+					};
+				};
+			};
+			buildConfigurationList = A7CDFDF42F96FAD900EFA30A /* Build configuration list for PBXProject "ARペースセッター" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7CDFDF02F96FAD900EFA30A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A7CDFDFA2F96FAD900EFA30A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7CDFDF82F96FAD900EFA30A /* ARペースセッター */,
+				A7CDFE082F96FADC00EFA30A /* ARペースセッターTests */,
+				A7CDFE122F96FADC00EFA30A /* ARペースセッターUITests */,
+				A7CDFE1E2F96FADC00EFA30A /* ARペースセッター Watch App */,
+				A7CDFE302F96FADD00EFA30A /* ARペースセッター Watch AppTests */,
+				A7CDFE3A2F96FADD00EFA30A /* ARペースセッター Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7CDFDF72F96FAD900EFA30A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CDFE072F96FADC00EFA30A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CDFE112F96FADC00EFA30A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CDFE1D2F96FADC00EFA30A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CDFE2F2F96FADD00EFA30A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CDFE392F96FADD00EFA30A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7CDFDF52F96FAD900EFA30A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CDFE052F96FADC00EFA30A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CDFE0F2F96FADC00EFA30A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CDFE1B2F96FADC00EFA30A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CDFE2D2F96FADD00EFA30A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CDFE372F96FADD00EFA30A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7CDFE0B2F96FADC00EFA30A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7CDFDF82F96FAD900EFA30A /* ARペースセッター */;
+			targetProxy = A7CDFE0A2F96FADC00EFA30A /* PBXContainerItemProxy */;
+		};
+		A7CDFE152F96FADC00EFA30A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7CDFDF82F96FAD900EFA30A /* ARペースセッター */;
+			targetProxy = A7CDFE142F96FADC00EFA30A /* PBXContainerItemProxy */;
+		};
+		A7CDFE222F96FADC00EFA30A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7CDFE1E2F96FADC00EFA30A /* ARペースセッター Watch App */;
+			targetProxy = A7CDFE212F96FADC00EFA30A /* PBXContainerItemProxy */;
+		};
+		A7CDFE332F96FADD00EFA30A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7CDFE1E2F96FADC00EFA30A /* ARペースセッター Watch App */;
+			targetProxy = A7CDFE322F96FADD00EFA30A /* PBXContainerItemProxy */;
+		};
+		A7CDFE3D2F96FADD00EFA30A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7CDFE1E2F96FADC00EFA30A /* ARペースセッター Watch App */;
+			targetProxy = A7CDFE3C2F96FADD00EFA30A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A7CDFE432F96FADD00EFA30A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7CDFE442F96FADD00EFA30A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A7CDFE462F96FADD00EFA30A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARペースセッター Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ARペースセッター";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.shintou.AR--------";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shintou.AR--------.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		A7CDFE472F96FADD00EFA30A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARペースセッター Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ARペースセッター";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.shintou.AR--------";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shintou.AR--------.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		A7CDFE4A2F96FADD00EFA30A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARペースセッター/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ARペースセッター";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shintou.AR--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7CDFE4B2F96FADD00EFA30A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARペースセッター/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ARペースセッター";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shintou.AR--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7CDFE4D2F96FADD00EFA30A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shintou.AR--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARペースセッター.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARペースセッター";
+			};
+			name = Debug;
+		};
+		A7CDFE4E2F96FADD00EFA30A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shintou.AR--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARペースセッター.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARペースセッター";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7CDFE502F96FADD00EFA30A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shintou.AR--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ARペースセッター";
+			};
+			name = Debug;
+		};
+		A7CDFE512F96FADD00EFA30A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shintou.AR--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ARペースセッター";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7CDFE532F96FADD00EFA30A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shintou.AR---------Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARペースセッター Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARペースセッター Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		A7CDFE542F96FADD00EFA30A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shintou.AR---------Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARペースセッター Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARペースセッター Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		A7CDFE562F96FADD00EFA30A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shintou.AR---------Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ARペースセッター Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		A7CDFE572F96FADD00EFA30A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shintou.AR---------Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ARペースセッター Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7CDFDF42F96FAD900EFA30A /* Build configuration list for PBXProject "ARペースセッター" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CDFE432F96FADD00EFA30A /* Debug */,
+				A7CDFE442F96FADD00EFA30A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7CDFE452F96FADD00EFA30A /* Build configuration list for PBXNativeTarget "ARペースセッター Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CDFE462F96FADD00EFA30A /* Debug */,
+				A7CDFE472F96FADD00EFA30A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7CDFE492F96FADD00EFA30A /* Build configuration list for PBXNativeTarget "ARペースセッター" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CDFE4A2F96FADD00EFA30A /* Debug */,
+				A7CDFE4B2F96FADD00EFA30A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7CDFE4C2F96FADD00EFA30A /* Build configuration list for PBXNativeTarget "ARペースセッターTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CDFE4D2F96FADD00EFA30A /* Debug */,
+				A7CDFE4E2F96FADD00EFA30A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7CDFE4F2F96FADD00EFA30A /* Build configuration list for PBXNativeTarget "ARペースセッターUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CDFE502F96FADD00EFA30A /* Debug */,
+				A7CDFE512F96FADD00EFA30A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7CDFE522F96FADD00EFA30A /* Build configuration list for PBXNativeTarget "ARペースセッター Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CDFE532F96FADD00EFA30A /* Debug */,
+				A7CDFE542F96FADD00EFA30A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7CDFE552F96FADD00EFA30A /* Build configuration list for PBXNativeTarget "ARペースセッター Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CDFE562F96FADD00EFA30A /* Debug */,
+				A7CDFE572F96FADD00EFA30A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7CDFDF12F96FAD900EFA30A /* Project object */;
+}
