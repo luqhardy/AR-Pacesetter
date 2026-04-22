@@ -7,39 +7,63 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct PageView: View {
+    @State private var selectedPage = 0
+    
     var body: some View {
-        VStack(spacing: 12) {
-            Text("ARペースセッター")
-            Button(action: {
-                print("Start Button Pressed")
-            }){
-                HStack {
-                    Image(systemName: "play.fill")
-                        .imageScale(.large)
-                    Text("Start Workout")
-                }
-            }
-            .buttonStyle(.borderedProminent)
-            .tint(.green)
+        // 1. Wrap your pages in a TabView and bind it to your state variable
+        TabView(selection: $selectedPage) {
             
-            Button(action: {
-                print("Stop Button Pressed")
-            }){
-                HStack {
-                    Image(systemName: "stop.fill")
-                        .imageScale(.large)
-                    Text("Stop Workout")
+            // --- PAGE 1 ---
+            VStack(spacing: 12) {
+                Text("ARペースセッター")
+                    .font(.title)
+                
+                Button(action: {
+                    print("Start Button Pressed")
+                }){
+                    HStack {
+                        Image(systemName: "play.fill")
+                            .imageScale(.large)
+                        Text("Start Workout")
+                    }
                 }
+                .buttonStyle(.borderedProminent)
+                .tint(.green)
+                
+                Button(action: {
+                    print("Stop Button Pressed")
+                }){
+                    HStack {
+                        Image(systemName: "stop.fill")
+                            .imageScale(.large)
+                        Text("Stop Workout")
+                    }
+                }
+                .buttonStyle(.borderedProminent)
+                .tint(.red)
             }
-            .buttonStyle(.borderedProminent)
-            .tint(.red)
+            .tag(0) // 2. Assign a tag so the TabView knows this is page 0
+            
+            // --- PAGE 2 ---
+            VStack(spacing: 12) {
+                Text("Settings or Stats")
+                    .font(.title)
+                
+                Text("This is your second page!")
+                    .foregroundColor(.secondary)
+            }
+            .tag(1) // 3. Assign a tag for page 1
             
         }
+        // 4. Apply the page style to the TabView itself
+        .tabViewStyle(.page)
+        // Optional: Adds a background behind the page dots so they are visible on white backgrounds
+        .indexViewStyle(.page(backgroundDisplayMode: .always))
         .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    PageView()
 }

@@ -71,6 +71,16 @@
 		A7CDFE3B2F96FADD00EFA30A /* ARペースセッター Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARペースセッター Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A777084A2F9889BC0089E481 /* Exceptions for "ARペースセッター Watch App" folder in "ARペースセッター Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"AR---------Watch-App-Info.plist",
+			);
+			target = A7CDFE1E2F96FADC00EFA30A /* ARペースセッター Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A7CDFDFB2F96FAD900EFA30A /* ARペースセッター */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -89,6 +99,9 @@
 		};
 		A7CDFE232F96FADC00EFA30A /* ARペースセッター Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A777084A2F9889BC0089E481 /* Exceptions for "ARペースセッター Watch App" folder in "ARペースセッター Watch App" target */,
+			);
 			path = "ARペースセッター Watch App";
 			sourceTree = "<group>";
 		};
@@ -613,12 +626,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ARペースセッター Watch App/ARペースセッター Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ARペースセッター Watch App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AR---------Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "ARペースセッター";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "ワークアウト中の心拍数を表示するためにヘルスケアデータにアクセスします。";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = NSHealthUpdateUsageDescription;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "ワークアウト中のペース計測のために位置情報を使用します。";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.shintou.AR--------";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -642,12 +661,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ARペースセッター Watch App/ARペースセッター Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ARペースセッター Watch App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AR---------Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "ARペースセッター";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "ワークアウト中の心拍数を表示するためにヘルスケアデータにアクセスします。";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = NSHealthUpdateUsageDescription;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "ワークアウト中のペース計測のために位置情報を使用します。";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.shintou.AR--------";
 				LD_RUNPATH_SEARCH_PATHS = (

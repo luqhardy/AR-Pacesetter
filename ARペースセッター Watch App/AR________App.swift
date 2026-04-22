@@ -11,7 +11,7 @@ import SwiftUI
 struct AR_________Watch_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PageView()
         }
     }
 }

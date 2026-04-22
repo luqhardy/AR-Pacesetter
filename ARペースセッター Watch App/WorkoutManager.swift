@@ -1,3 +1,11 @@
+//
+//  WorkoutManager.swift
+//  ARペースセッター
+//
+//  Created by EZIANTI KAMAL on 22/04/2026.
+//
+
+
 import Foundation
 import CoreLocation
 import HealthKit
