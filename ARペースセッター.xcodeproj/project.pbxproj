@@ -71,16 +71,6 @@
 		A7CDFE3B2F96FADD00EFA30A /* ARペースセッター Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARペースセッター Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		A777084A2F9889BC0089E481 /* Exceptions for "ARペースセッター Watch App" folder in "ARペースセッター Watch App" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"AR---------Watch-App-Info.plist",
-			);
-			target = A7CDFE1E2F96FADC00EFA30A /* ARペースセッター Watch App */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A7CDFDFB2F96FAD900EFA30A /* ARペースセッター */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -99,9 +89,6 @@
 		};
 		A7CDFE232F96FADC00EFA30A /* ARペースセッター Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				A777084A2F9889BC0089E481 /* Exceptions for "ARペースセッター Watch App" folder in "ARペースセッター Watch App" target */,
-			);
 			path = "ARペースセッター Watch App";
 			sourceTree = "<group>";
 		};
