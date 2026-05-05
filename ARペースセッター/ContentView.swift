@@ -58,7 +58,7 @@ struct PageView: View {
         }
         // 4. Apply the page style to the TabView itself
         .tabViewStyle(.page)
-        // Optional: Adds a background behind the page dots so they are visible on white backgrounds
+
         .indexViewStyle(.page(backgroundDisplayMode: .always))
         .padding()
     }

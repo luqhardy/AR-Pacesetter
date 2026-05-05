@@ -12,7 +12,6 @@ class WorkoutManager: NSObject, ObservableObject, CLLocationManagerDelegate {
     // センサーの管理オブジェクト
     private let locationManager = CLLocationManager()
     private let healthStore = HKHealthStore()
-    
     // UI（画面）に自動反映させるための変数
     @Published var currentPace: String = "-'--\"" // 例: 4'30"
     @Published var heartRate: Int = 0
